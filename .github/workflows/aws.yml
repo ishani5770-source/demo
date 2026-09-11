@@ -31,7 +31,7 @@ on:
     branches: [ "main" ]
 
 env:
-  AWS_REGION: us-east-1                   # set this to your preferred AWS region, e.g. us-west-1
+  AWS_REGION: us-east-1                  # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: ishani/demo           # set this to your Amazon ECR repository name
   ECS_SERVICE: polished-server-y1mkw2-service-kjqe544g                  # set this to your Amazon ECS service name
   ECS_CLUSTER: dazzling-hippopotamus-i6pmlp                 # set this to your Amazon ECS cluster name
